@@ -28,7 +28,6 @@ cat <<EOF > /var/www/html/index.html
 <div align="center"><h1>Hello World</h1>
 <p>This page was created from a simple startup script!</p>
 <br><br><br>
-<img src="https://www.meetmindful.com/wp-content/uploads/2016/01/peace-meditate-nature-outside-night-night-fall-peace-solitude1.jpg"/>
 </div>
 </body></html>
 EOF
