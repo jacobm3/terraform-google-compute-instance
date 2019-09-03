@@ -19,7 +19,7 @@ variable "disk_image" {}
 variable "subnetwork" {}
 
 variable "startup_script" {
-  default = <<EOF
+  default = <<EOV
 #! /bin/bash
 apt-get update
 apt-get install -y apache2
@@ -28,4 +28,5 @@ cat <<EOF > /var/www/html/index.html
 <p>This page was created from a simple startup script!</p>
 </body></html>
 EOF
+EOV
 }
